@@ -1,10 +1,14 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return(
         <>
-        <h1>Travel Destination</h1>
+        <nav>
+        <h3>Travel Destination</h3>
+        <Link to={"/"}>Home</Link>
+        </nav>
         </>
     );
 }

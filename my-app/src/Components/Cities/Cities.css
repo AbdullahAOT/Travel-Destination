@@ -1,0 +1,26 @@
+/* Cities.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.city-info {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.city-info h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.error-message {
+    color: #ff3333;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
