@@ -1,0 +1,25 @@
+/* Header.css */
+nav {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+a {
+    color: #61dafb;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+a:hover {
+    color: #21a1f1;
+}
